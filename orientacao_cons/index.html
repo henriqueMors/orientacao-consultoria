@@ -229,25 +229,7 @@
                          </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <img src="images/team-image3.jpg" class="img-responsive" alt="">
-
-                                   <div class="team-info">
-                                        <h3>Miasha Nakahara</h3>
-                                        <p>Cardiology</p>
-                                        <div class="team-contact-info">
-                                             <p><i class="fa fa-phone"></i> 010-040-0140</p>
-                                             <p><i class="fa fa-envelope-o"></i> <a href="#">cardio@company.com</a></p>
-                                        </div>
-                                        <ul class="social-icon">
-                                             <li><a href="#" class="fa fa-twitter"></a></li>
-                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                        </ul>
-                                   </div>
-
-                         </div>
-                    </div>
+                    
                     
                </div>
           </div>
@@ -326,8 +308,9 @@
                                              <h5>Andrio Abero</h5>
                                              <p>Online Advertising</p>
                                         </div>
+                                        -->
                                    </div>
-                                   -->
+                                   
                               </div>
                          </div>
                     </div>
@@ -341,52 +324,32 @@
      <section id="appointment" data-stellar-background-ratio="3">
           <div class="container">
                <div class="row">
-
-                    <div class="col-md-6 col-sm-6">
-                         <img src="images/appointment-image.jpg" class="img-responsive" alt="">
-                    </div>
-
                     <div class="col-md-6 col-sm-6">
                          <!-- CONTACT FORM HERE -->
                          <form id="appointment-form" role="form" method="post" action="#">
 
                               <!-- SECTION TITLE -->
                               <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
-                                   <h2>Make an appointment</h2>
+                                   <h2>Formulário para contato</h2>
                               </div>
 
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
                                    <div class="col-md-6 col-sm-6">
-                                        <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                                        <label for="name">Nome</label>
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nome completo" required>
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
-                                   </div>
-
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="date">Select Date</label>
-                                        <input type="date" name="date" value="" class="form-control">
-                                   </div>
-
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="select">Select Department</label>
-                                        <select class="form-control">
-                                             <option>General Health</option>
-                                             <option>Cardiology</option>
-                                             <option>Dental</option>
-                                             <option>Medical Research</option>
-                                        </select>
+                                        <label for="email">E-mail</label>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Seu e-mail" required>
                                    </div>
 
                                    <div class="col-md-12 col-sm-12">
-                                        <label for="telephone">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
-                                        <label for="Message">Additional Message</label>
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
-                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit Button</button>
+                                        <label for="telephone">Número de telefone</label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="(00)00000-0000" required>
+                                        <label for="Message">Mensagem (opcional)</label>
+                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Mensagem"></textarea>
+                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Enviar</button>
                                    </div>
                               </div>
                         </form>
@@ -396,97 +359,59 @@
           </div>
      </section>
 
-
-     <!-- GOOGLE MAP -->
-     <section id="google-map">
-     <!-- How to change your own map point
-            1. Go to Google Maps
-            2. Click on your location point
-            3. Click "Share" and choose "Embed map" tab
-            4. Copy only URL and paste it within the src="" field below
-	-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-     </section>           
+     <section id="contact-section">
+          <div class="container">
+               <div class="row">
+                    <!-- Google Map -->
+                    <div class="col-md-6 col-sm-12">
+                         <div id="google-map">
+                              <!-- How to change your own map point
+                                   1. Go to Google Maps
+                                   2. Click on your location point
+                                   3. Click "Share" and choose "Embed map" tab
+                                   4. Copy only URL and paste it within the src="" field below
+                              -->
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                         </div>
+                    </div>
+     
+                    <!-- Footer -->
+                    <div class="col-md-6 col-sm-12">
+                         <footer data-stellar-background-ratio="5">
+                              <div class="container">
+                                   <div class="row">
+                                        <div class="col-md-4 col-sm-4">
+                                             <div class="footer-thumb"> 
+                                                  <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contato</h4>
+                                                  <p>Tem alguma dúvida ou precisa de ajuda? <br> Estamos aqui para você! Entre em contato conosco.</p>
+                                                  <div class="contact-info">
+                                                       <p><i class="fa fa-phone"></i> (11) 94052-0882</p>
+                                                       <p><i class="fa fa-envelope-o"></i> <a href="#">contato.orientacaoconsultoria@gmail.com</a></p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </footer>
+                    </div>
+               </div>
+          </div>
+     </section>      
 
 
      <!-- FOOTER -->
      <footer data-stellar-background-ratio="5">
           <div class="container">
-               <div class="row">
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
-                              <p>Fusce at libero iaculis, venenatis augue quis, pharetra lorem. Curabitur ut dolor eu elit consequat ultricies.</p>
-
-                              <div class="contact-info">
-                                   <p><i class="fa fa-phone"></i> 010-070-0170</p>
-                                   <p><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></p>
-                              </div>
+              <div class="row">
+                  <div class="col-md-12 col-sm-12 border-top text-center">
+                         <div class="copyright-text"> 
+                              <p>Copyright &copy; 2024 | HenriqueMors</p>
                          </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Latest News</h4>
-                              <div class="latest-stories">
-                                   <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
-                                   </div>
-                                   <div class="stories-info">
-                                        <a href="#"><h5>Amazing Technology</h5></a>
-                                        <span>March 08, 2018</span>
-                                   </div>
-                              </div>
-
-                              <div class="latest-stories">
-                                   <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
-                                   </div>
-                                   <div class="stories-info">
-                                        <a href="#"><h5>New Healing Process</h5></a>
-                                        <span>February 20, 2018</span>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4"> 
-                         <div class="footer-thumb">
-                              <div class="opening-hours">
-                                   <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
-                                   <p>Monday - Friday <span>06:00 AM - 10:00 PM</span></p>
-                                   <p>Saturday <span>09:00 AM - 08:00 PM</span></p>
-                                   <p>Sunday <span>Closed</span></p>
-                              </div> 
-
-                              <ul class="social-icon">
-                                   <li><a href="https://www.facebook.com/tooplate" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
-                              </ul>
-                         </div>
-                    </div>
-                    
-                    <div class="col-md-12 col-sm-12 border-top">
-                         <div class="col-md-4 col-sm-6">
-                              <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2017 Your Company 
-                                   
-                                   | Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
-                              </div>
-                         </div>
-                         <div class="col-md-2 col-sm-2 text-align-center">
-                              <div class="angle-up-btn"> 
-                                  <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-angle-up"></i></a>
-                              </div>
-                         </div>   
-                    </div>
-
-                    
-               </div>
+                  </div>
+              </div>
           </div>
-     </footer>
+      </footer>
+      
 
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
