@@ -84,7 +84,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   a:hover, a:active, a:focus {
-    color: #a5c422;
+    color: #c100d3;
     outline: none;
   }
 
@@ -107,7 +107,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .section-btn {
-    background: #a5c422;
+    background: #750079;
     border: 0;
     border-radius: 3px;
     color: #ffffff;
@@ -141,7 +141,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .btn-blue {
-    background: #4267b2;
+    background: #750079;
   }
 
   .news-thumb {
@@ -295,7 +295,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   header span i {
-    color: #a5c422;
+    color: #750079;
     margin-right: 5px;
   }
 
@@ -319,7 +319,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .navbar-default .navbar-brand .fa {
-    color: #a5c422;
+    color: #c100d3;
   }
 
   .navbar-default .navbar-nav li.appointment-btn {
@@ -327,7 +327,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .navbar-default .navbar-nav li.appointment-btn a {
-    background: #a5c422;
+    background: #750079;
     border-radius: 3px;
     color: #ffffff;
     font-weight: 600;
@@ -336,7 +336,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .navbar-default .navbar-nav li.appointment-btn a:hover {
-    background: #4267b2;
+    background: #a5c422;
     color: #ffffff !important;
   }
 
@@ -452,7 +452,8 @@ http://www.tooplate.com/view/2098-health
   }
 
   .slider .item-first {
-    background-image: url(../images/slider1.jpg);
+    background-image: url(../images/tania/slide0002.png);
+    background-position: center;
   }
 
   .slider .item-second {
@@ -469,7 +470,7 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #about {
-    background: url('../images/tania/about-bg2.png') no-repeat top center;
+    background: url('../images/tania/about-bg3.png') no-repeat top center;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
