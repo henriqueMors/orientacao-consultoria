@@ -444,7 +444,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .slider .item {
-    background-position: inherit;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
@@ -453,15 +453,14 @@ http://www.tooplate.com/view/2098-health
 
   .slider .item-first {
     background-image: url(../images/tania/slide0002.png);
-    background-position: center;
   }
 
   .slider .item-second {
-    background-image: url(../images/slider2.jpg);
+    background-image: url(../images/tania/slide0003.png);
   }
 
   .slider .item-third {
-    background-image: url(../images/slider3.jpg);
+    background-image: url(../images/tania/slide0004.png);
   }
 
 
