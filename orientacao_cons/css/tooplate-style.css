@@ -598,152 +598,225 @@ http://www.tooplate.com/view/2098-health
   }
 
 
-  /*---------------------------------------
-      NEWS             
-  -----------------------------------------*/
+/*---------------------------------------
+  NEWS             
+-----------------------------------------*/
 
-  #news, #news-detail {
-    background: #f9f9f9;
-  }
+#news, #news-detail {
+  background: #f9f9f9;
+}
 
-  #news-detail blockquote {
-    margin: 30px 0;
-  }
+#news-detail blockquote {
+  margin: 30px 0;
+}
 
-  .news-detail-thumb .news-image img {
-    border-radius: 10px;
-  }
+.news-detail-thumb .news-image img {
+  border-radius: 10px;
+}
 
-  .news-detail-thumb h3 {
-    margin-bottom: 8px;
-  }
+.news-detail-thumb h3 {
+  margin-bottom: 8px;
+}
 
-  .news-image {
-    margin-bottom: 30px;
-    position: relative;
-  }
+.news-image {
+  margin-bottom: 30px;
+  position: relative;
+}
 
-  .news-image img {
-    width: 100%;
-  }
+.news-image img {
+  width: 100%;
+}
 
-  .news-detail-thumb ul {
-    margin: 32px 12px 22px 0px;
-  }
+.news-detail-thumb ul {
+  margin: 32px 12px 22px 0px;
+}
 
-  .news-detail-thumb ul li {
-    list-style: circle;
-    font-weight: normal;
-    padding: 6px 12px 6px 0px;
-  }
+.news-detail-thumb ul li {
+  list-style: circle;
+  font-weight: normal;
+  padding: 6px 12px 6px 0px;
+}
 
-  .news-sidebar {
-    margin-top: 16px;
-  }
+.news-sidebar {
+  margin-top: 16px;
+}
 
-  .news-social-share {
-    text-align: center;
-    padding-top: 22px;
-  }
+.news-social-share {
+  text-align: center;
+  padding-top: 22px;
+}
 
-  .news-social-share .btn {
-    border-radius: 100px;
-    border: none;
-    font-size: 10px;
-    font-weight: 600;
-    margin: 2px 6px;
-    padding: 8px 14px;
-  }
+.news-social-share .btn {
+  border-radius: 100px;
+  border: none;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 2px 6px;
+  padding: 8px 14px;
+}
 
-  .news-social-share .btn-primary {
-    background: #3b5998;
-  }
+.news-social-share .btn-primary {
+  background: #3b5998;
+}
 
-  .news-social-share .btn-success {
-    background: #1da1f2;
-  }
+.news-social-share .btn-success {
+  background: #1da1f2;
+}
 
-  .news-social-share .btn-danger {
-    background: #dd4b39;
-  }
+.news-social-share .btn-danger {
+  background: #dd4b39;
+}
 
-  .news-social-share a .fa {
-    padding-right: 4px;
-  }
+.news-social-share a .fa {
+  padding-right: 4px;
+}
 
-  .recent-post {
-    padding-top: 2px;
-    padding-bottom: 18px;
-  }
+.recent-post {
+  padding-top: 2px;
+  padding-bottom: 18px;
+}
 
-  .recent-post .media img {
-    border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    margin-right: 5px;
-  }
+.recent-post .media img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+}
 
-  .recent-post .media-heading {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: inherit;
-    margin-top: 5px;
-  }
+.recent-post .media-heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: inherit;
+  margin-top: 5px;
+}
 
-  .news-categories {
-    margin-top: 8px;
-  }
+.news-categories {
+  margin-top: 8px;
+}
 
-  .news-categories li a {
-    color: #2b2b2b;
-  }
+.news-categories li a {
+  color: #2b2b2b;
+}
 
-  .news-ads {
-    background: #ffffff;
-    border-right: 4px solid #2b2b2b;
-    padding: 42px;
-    text-align: center;
-    margin: 26px 0 26px 0;
-  }
+.news-ads {
+  background: #ffffff;
+  border-right: 4px solid #2b2b2b;
+  padding: 42px;
+  text-align: center;
+  margin: 26px 0 26px 0;
+}
 
-  .news-ads.sidebar-ads {
-    border-left: 4px solid #2b2b2b;
-    border-right: 0px;
-  }
+.news-ads.sidebar-ads {
+  border-left: 4px solid #2b2b2b;
+  border-right: 0px;
+}
 
-  .news-ads h4 {
-    font-size: 18px;
-  }
+.news-ads h4 {
+  font-size: 18px;
+}
 
-  .news-tags h4 {
-    padding-bottom: 6px;
-  }
+.news-tags h4 {
+  padding-bottom: 6px;
+}
 
-  .news-categories li,
-  .news-tags li {
-    list-style: none;
-    display: inline-block;
-    margin: 4px;
-  }
+.news-categories li,
+.news-tags li {
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+}
 
-  .news-tags li a {
-    background: #393939;
-    border-radius: 50px;
-    color: #ffffff;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 500;
-    text-decoration: none;
-    float: left;
-    min-width: 30px;
-    padding: 6px 12px;
-    -webkit-transition: all ease-in-out 0.4s;
-    transition: all ease-in-out 0.4s;
-  }
+.news-tags li a {
+  background: #393939;
+  border-radius: 50px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  float: left;
+  min-width: 30px;
+  padding: 6px 12px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
 
-  .news-tags li a:hover {
-    background: #4267b2;
-  }
+.news-tags li a:hover {
+  background: #4267b2;
+}
+
+/* Adições para garantir consistência dos cards de notícias */
+#news .news-thumb {
+  background: #ffffff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 350px; /* Altura mínima para os cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#news .news-thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#news .news-info {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+#news .news-info h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#news .news-info p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Garantir que os links dentro dos títulos dos cards tenham a cor desejada */
+#news .news-info h3 a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+/* Adicionar hover effect nos links dos títulos */
+#news .news-info h3 a:hover {
+  color: #4267b2;
+}
+
+/* Estilos para a seção de autor (se for necessário) */
+#news .author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#news .author img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#news .author-info h5 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#news .author-info p {
+  margin: 0;
+  font-size: 12px;
+  color: #777;
+}
+
 
 
 
