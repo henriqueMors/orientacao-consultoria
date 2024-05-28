@@ -1,0 +1,70 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o body e html */
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o top bar */
+#topbar {
+    background-color: #333; /* Cor de fundo do top bar */
+    color: #fff; /* Cor do texto do top bar */
+    padding: 10px 0; /* Espaçamento interno do top bar */
+}
+
+#topbar .container {
+    display: flex;
+    justify-content: center;
+}
+
+#topbar .contact-info {
+    display: flex;
+    align-items: center;
+}
+
+#topbar .contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+#topbar .contact-item:last-child {
+    margin-right: 0; /* Remove margem à direita do último item */
+}
+
+#topbar .contact-item img {
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+/* imagens top bar */
+.icone-instagram {
+    height: 30px;
+}
+
+.icone-booksy {
+    height: 30px;
+}
+
+.icone-telefone {
+    height: 30px;
+}
+/* fim imagem top bar */
+
+/* HEADER */
+.barber {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+    width: 100%;
+}
+
