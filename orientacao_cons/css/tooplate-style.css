@@ -866,9 +866,9 @@ http://www.tooplate.com/view/2098-health
      FOOTER              
   -----------------------------------------*/
 
-  footer {
-    padding-top: 80px;
-    padding-bottom: 40px;
+  #contact-section {
+    display: flex;
+    justify-content: center;
   }
 
   footer h4 {
@@ -979,6 +979,7 @@ http://www.tooplate.com/view/2098-health
     color: #ffffff;
     transform: translateY(-5px);
   }
+
 
 
   /*---------------------------------------
