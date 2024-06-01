@@ -743,7 +743,7 @@
 #news .author {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #news .author img {
