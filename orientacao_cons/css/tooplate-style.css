@@ -182,7 +182,7 @@
   #news-detail {
     position: relative;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
   }
 
   #news, #service {
@@ -415,7 +415,7 @@
 /* Estilos gerais para a seção */
 #team {
   background-color: #f9f9f9; /* Cor de fundo da seção */
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 .row.d-flex {
@@ -493,7 +493,7 @@
 /* Estilos gerais para a seção específica */
 .service-cards {
   background-color: #f9f9f9; /* Cor de fundo da seção */
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 .service-cards .row.d-flex {
