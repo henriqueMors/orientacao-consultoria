@@ -490,77 +490,82 @@
   /*---------------------------------------
      WORK              
   -----------------------------------------*/
-/* Estilos gerais para a seção */
-#work {
-    background-color: #f9f9f9; /* Cor de fundo da seção */
-    padding: 60px 0;
+/* Estilos gerais para a seção específica */
+.service-cards {
+  background-color: #f9f9f9; /* Cor de fundo da seção */
+  padding: 60px 0;
 }
 
-.row.d-flex {
-    display: flex;
-    flex-wrap: wrap;
+.service-cards .row.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espaçamento entre os cards */
 }
 
-.row.d-flex .custom-col {
-    flex: 1;
-    max-width: 20%;
-    box-sizing: border-box;
-    margin-bottom: 30px;
+.service-cards .custom-col {
+  flex: 1;
+  max-width: calc(20% - 10px); /* Ajuste da largura para considerar o gap */
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
-.work-thumb {
-    background-color: #f9f9f9;
-    border-radius: 0 0 10px 10px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionando sombra aos cards */
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+.service-cards .work-thumb {
+  background-color: #f9f9f9;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionando sombra aos cards */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%; /* Garantir que todos os cards tenham a mesma altura */
 }
 
-.work-thumb img {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.service-cards .work-thumb img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.work-info {
-    padding: 20px;
-    text-align: center;
-    flex: 1;
+.service-cards .work-info {
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.work-info h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    font-weight: 600;
+.service-cards .work-info h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
-.work-info p {
-    font-size: 1em;
-    color: #555555;
-    margin-bottom: 0; /* Remove o margin-bottom para ajustar o espaçamento */
+.service-cards .work-info p {
+  font-size: 1em;
+  color: #555555;
+  margin-bottom: 0; /* Remove o margin-bottom para ajustar o espaçamento */
 }
 
 /* Responsividade */
 @media (max-width: 1200px) {
-    .row.d-flex .custom-col {
-        max-width: 33.3333%;
-    }
+  .service-cards .custom-col {
+      max-width: calc(33.3333% - 10px);
+  }
 }
 
 @media (max-width: 992px) {
-    .row.d-flex .custom-col {
-        max-width: 50%;
-    }
+  .service-cards .custom-col {
+      max-width: calc(50% - 10px);
+  }
 }
 
 @media (max-width: 768px) {
-    .row.d-flex .custom-col {
-        max-width: 100%;
-    }
+  .service-cards .custom-col {
+      max-width: calc(100% - 10px);
+  }
 }
 
 
