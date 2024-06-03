@@ -1,31 +1,59 @@
-(function(){
-    emailjs.init("YOUR_USER_ID");
-})();
+class FormSubmit {
+    constructor(settings) {
+        this.settings = settings;
+        this.form = document.querySelector(settings.form);
+        this.formButton = document.querySelector(settings.button);
+        if (this.form) {
+            this.url = this.form.getAttribute("action");
+        }
+    }
 
-document.getElementById('appointment-form').addEventListener('submit', function(event) {
-    event.preventDefault();
+    displaySuccess() {
+        this.form.innerHTML = this.settings.sucsess;
+    }
 
-    // Get the form data
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var phone = document.getElementById('phone').value;
-    var message = document.getElementById('message').value;
+    displayError() {
+        this.form.innerHTML = this.settings.error;
+    }
 
-    // Create the template parameters
-    var templateParams = {
-        name: name,
-        email: email,
-        phone: phone,
-        message: message
-    };
-
-    // Send the email
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
-        .then(function(response) {
-            console.log('SUCCESS!', response.status, response.text);
-            alert('Formulário enviado com sucesso!');
-        }, function(error) {
-            console.log('FAILED...', error);
-            alert('Falha ao enviar o formulário. Tente novamente.');
+    getFormOject() {
+        const formObject = {};
+        const fields = this.form.querySelector('[name]');
+        fields.forEach((fields) => {
+            formObject[fields.getAttribute("name")] = field.value;
         });
+        return formObject;
+    }
+
+    async sendForm() {
+        try {
+            await fetch(this.url, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    accept: "application/json",
+                },
+                body: JSON.stringify(this.getFormOject()),
+            });
+
+            this.displaySuccess();
+        } catch (error) {
+        this.displayError();
+        throw new Error(error);
+        }
+    }
+
+    init() {
+        if (this.form) this.formButton.addEventListener("click", () => this.sendForm);
+        return this;
+    }
+}
+
+const formSubmit = new FormSubmit({
+    form: "[data-form]",
+    button: "[data-button]",
+    success: "<h1 class='success'>Mensagem Enviada!</h1>",
+    error: "<h1 class='error'>Não foi possível enviar sua mensagem.</h1>"
 });
+
+formSubmit.init();
