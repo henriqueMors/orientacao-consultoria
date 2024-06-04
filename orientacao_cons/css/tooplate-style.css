@@ -485,8 +485,6 @@
 }
 
 
-
-
   /*---------------------------------------
      WORK              
   -----------------------------------------*/
@@ -534,7 +532,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start; /* Alinhar itens ao topo */
 }
 
 .service-cards .work-info h3 {
@@ -546,6 +545,7 @@
 .service-cards .work-info p {
   font-size: 1em;
   color: #555555;
+  margin-top: 10px; /* Adiciona um espaçamento entre o título e o texto */
   margin-bottom: 0; /* Remove o margin-bottom para ajustar o espaçamento */
 }
 
@@ -567,8 +567,6 @@
       max-width: calc(100% - 10px);
   }
 }
-
-
 
 
   /*---------------------------------------
