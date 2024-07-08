@@ -476,6 +476,33 @@
   }
 }
 
+    /*---------------------------------------
+      SELO VERDE              
+  -----------------------------------------*/
+  .custom-img {
+    width: 100%;
+    height: auto;
+    max-width: 120px; /* Define o tamanho máximo para a largura */
+    display: block;
+    margin-right: 15px;
+    object-fit: contain; /* Garante que a imagem não seja cortada */
+    margin: 10px;
+ }
+ 
+ .col-md-2 {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente a imagem */
+    justify-content: center; /* Centraliza horizontalmente a imagem */
+ }
+ 
+ .about-info {
+    overflow: hidden;
+ }
+ 
+ .section-margin {
+  margin: 60px;
+}
+
   /*---------------------------------------
      WORK              
   -----------------------------------------*/
